@@ -1,4 +1,15 @@
 pl:
+
+  spree:
+    slides: "Slajdy"
+    admin:
+      slides:
+        index:
+          image: 'Obraz'
+          name: 'Nazwa'
+          product: 'Produkt'
+          published: 'Opublikowany'
+
   next: "Następne"
   previous: "Poprzednie"
   name: "Nazwa"
@@ -16,11 +27,14 @@ pl:
     models:
       spree/slide: "Slajd"
 
-  spree:
-    slides: "Slajdy"
+  spree_slider_locations:
+    config_name: 'Miejsca slajdów'
+    title: 'Miejsca slajdów'
+    new_location: 'Nowe miejsce'
+    back_to_locations: 'Powrót'
 
   spree_slider:
-    config_name: "Spree Slider"
+    config_name: "Slajdy"
     config_description: "Zarządzaj zawartości Spree Slidera"
     title: "Slajdy"
     new_slide: "Nowy slajd"
@@ -28,3 +42,4 @@ pl:
     placeholder_name: "Pozostaw puste aby użyć nazwy produktu"
     placeholder_link_url: "Pozostaw puste aby użyć odnośnika do produktu"
     image_tip: "Domyślnie pierwsze zdjęcie produktu"
+    back_to_slides: "Powrót"
